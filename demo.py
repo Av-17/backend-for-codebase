@@ -5,7 +5,7 @@ from urllib.parse import urlencode
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 
-load_dotenv(dotenv_path="../.env")
+# load_dotenv(dotenv_path="../.env")
 
 load_dotenv()
 app = FastAPI()

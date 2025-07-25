@@ -74,4 +74,4 @@ def callback(code: str):
     # res = RedirectResponse(url=f"http://localhost:8501/login?token={token}&username={username}")  # <-- redirect to app.py
     # res.set_cookie(key="access_token", value=token, max_age=86400, path="/")
     # res.set_cookie(key="username", value=username, max_age=86400, path="/")
-    return RedirectResponse(url=f"https://codebase-ai-assistant-x8cfptgremh9xnjethkwvc.streamlit.app//?token={token}&username={username}")
+    return RedirectResponse(url=f"https://codebase-ai-assistant-x8cfptgremh9xnjethkwvc.streamlit.app/?token={token}&username={username}")

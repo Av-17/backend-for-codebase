@@ -30,7 +30,7 @@ def login():
         "client_id": CLIENT_ID,
         "redirect_uri": REDIRECT_URI,
         "scope": "repo read:user",
-        "prompt": "consent"
+        # "prompt": "consent"
     }
     github_url = f"https://github.com/login/oauth/authorize?{urlencode(params)}"
     return RedirectResponse(github_url)
